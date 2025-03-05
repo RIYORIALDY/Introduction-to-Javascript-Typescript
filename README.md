@@ -1,7 +1,9 @@
 # Introduction to JavaScript or TypeScript
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
-[![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/)
+
+[![TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://typescriptlang.org)
+
 ## Pendahuluan
 JavaScript dan TypeScript adalah dua bahasa pemrograman yang sangat populer dalam pengembangan web. JavaScript adalah bahasa pemrograman tingkat tinggi yang penting untuk menambahkan elemen interaktif ke situs web. TypeScript, di sisi lain, adalah superset statis dari JavaScript yang menambahkan fitur seperti antarmuka dan kelas, menjadikannya lebih cocok untuk aplikasi berskala besar.
 
