@@ -61,6 +61,69 @@ console.log(greet(user));  // Output: Hello, John Doe!
 
 JavaScript dan TypeScript adalah dua alat yang kuat dalam toolkit pengembang web. Sementara JavaScript penting untuk menambahkan interaktivitas ke situs web, TypeScript menyediakan fitur tambahan yang membuatnya lebih cocok untuk aplikasi berskala besar. Memahami kekuatan dan kelemahan masing-masing bahasa dapat membantu pengembang memilih alat yang tepat untuk pekerjaan tersebut.
 
+# Tugas
+
+## Tugas 1: Luas Persegi Panjang
+- **Input:** Panjang = 5, Lebar = 3
+- **Output:** Luas = 15
+
+## Tugas 2: Properti Lingkaran
+- **Input:** Jari-jari = 5
+- **Output:** Diameter = 10, Keliling = 31.4159, Luas = 78.539
+
+## Tugas 3: Sudut Segitiga
+- **Input:** Sudut A = 80, Sudut B = 65
+- **Output:** Sudut Ketiga = 35
+
+## Tugas 4: Perbedaan Tanggal dalam Hari
+- **Input:** Tanggal1 = 2024-03-19, Tanggal2 = 2024-03-21
+- **Output:** Perbedaan dalam Hari = 2
+
+## Tugas 5: Mencetak Inisial dalam Huruf Besar
+- **Input:** Nama = John Doe
+- **Output:** Inisial = JD
+
+## Snippet Kode
+### Luas Persegi Panjang
+```python
+def luas_persegi_panjang(panjang, lebar):
+    return panjang * lebar
+```
+
+### Properti Lingkaran
+```python
+import math
+def properti_lingkaran(jari_jari):
+    diameter = 2 * jari_jari
+    keliling = 2 * math.pi * jari_jari
+    luas = math.pi * jari_jari ** 2
+    return diameter, keliling, luas
+```
+
+### Sudut Segitiga
+```python
+def sudut_ketiga(a, b):
+    return 180 - (a + b)
+```
+
+### Perbedaan Tanggal dalam Hari
+```python
+from datetime import datetime
+def perbedaan_tanggal(tanggal1, tanggal2):
+    format_tanggal = "%Y-%m-%d"
+    t1 = datetime.strptime(tanggal1, format_tanggal)
+    t2 = datetime.strptime(tanggal2, format_tanggal)
+    delta = t2 - t1
+    return delta.days
+```
+
+### Mencetak Inisial dalam Huruf Besar
+```python
+def inisial(nama):
+    return ''.join([bagian[0].upper() for bagian in nama.split()])
+```
+
+
 ## License
 
 MIT
